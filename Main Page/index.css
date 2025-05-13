@@ -1,3 +1,7 @@
+body{
+    font-family: steppe;
+}
+
 .nav-bann{
     position: relative;
     width: 100%;
@@ -32,5 +36,25 @@
     }
 }
 
+.header{
+    font-family: Chillax;
+}
 
+.main{
+    animation: fadeIn 2.9s ease-in-out;
+}
 
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.shipping{
+    background-image: url('images/shipping.png');
+    background-position: center;
+    background-size: cover;
+}
