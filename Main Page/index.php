@@ -388,7 +388,37 @@
     </section>
 
 
-    <footer></footer>
+    <!-- <footer class="bg-[#1A3306] rounded-2xl mt-10 py-10 flex justify-around text-white">
+        <img src="images/leaf(2).png" alt="Leaf" class="absolute ml-400">
+        <article>
+            <h1 class="text-3xl">FLORA AI</h1>
+            <p class="text-[#ABABAB]">Lorem ipsum dolor sit amet consectetur.<Br>Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet consectetur.<br>Lorem</p>
+        </article>
+
+        <article class="grid">
+            <h1 class="text-white text-lg mb-5">Useful Links</h1>
+            <a href="#" class="text-[#ABABAB]">Home</a>
+            <a href="#" class="text-[#ABABAB]">About</a>
+            <a href="#" class="text-[#ABABAB]">Product</a>
+            <a href="#" class="text-[#ABABAB]">Contact</a>
+        </article>
+
+        <article class="grid">
+            <h1 class="text-white text-lg mb-5">Community</h1>
+            <a href="#" class="text-[#ABABAB]">Go Premium</a>
+            <a href="#" class="text-[#ABABAB]">Team Plans</a>
+            <a href="#" class="text-[#ABABAB]">Refer a Friend</a>
+            <a href="#" class="text-[#ABABAB]">Gift Cards</a>
+        </article>
+
+        <article class="grid">
+            <h1 class="text-white text-lg mb-5">Resources</h1>
+            <a href="#" class="text-[#ABABAB]">Support</a>
+            <a href="#" class="text-[#ABABAB]">Latest updates</a>
+            <a href="#" class="text-[#ABABAB]">Update</a>
+            <a href="#" class="text-[#ABABAB]">Flow Management</a>
+        </article>
+    </footer> -->
 
     <script src="main.js"></script>
 </body>
