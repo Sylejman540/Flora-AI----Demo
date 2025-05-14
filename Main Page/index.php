@@ -5,29 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="index.css">  
-    <link rel="icon" href="images/logo.png">  
+    <link rel="icon" href="images/logo(3).png">  
     <title>Flora AI</title>
 </head>
 <body>
     <!-- The Class from nav to banner section -->
     <main class="nav-bann bg-[#004F44]">
         <section class="flex justify-around gap-14 nav">
+            <!-- LOGO -->
+            <img src="images/logo(2).png" alt="" class="w-18 h-18 hidden md:block cursor-pointer" onclick="location.reload()">
             <!-- For Desktop -->
             <nav>
                 <ul class="md:flex gap-5 mt-5 text-lg text-white hidden">
                     <li><a href="#" class="hover:text-green-300 transition duration-300">AI Flower Care</a></li>
-                    <li><a href="#shop" class="hover:text-green-300 transition duration-300">Shop Flowers/Garden Tools</a></li>
+                    <li><a href="shop" class="hover:text-green-300 transition duration-300">Shop Flowers/Garden Tools</a></li>
                     <li><a href="#" class="hover:text-green-300 transition duration-300">Hire a Gardener</a></li>
                 </ul>
             </nav>
 
-            <!-- LOGO -->
-            <img src="images/logo.png" alt="" class="w-18 h-18 hidden md:block cursor-pointer" onclick="location.reload()">
-
             <article class="flex gap-5 mt-1">
-                <img src="images/search.png" alt="Search" class="w-5 h-5 mt-5 cursor-pointer">
-                <img src="images/person.png" alt="Person" class="w-5 h-5 mt-5 cursor-pointer">
-                <img src="images/cart.png" alt="Cart" class="w-5 h-5 mt-5 cursor-pointer">
+                <img src="images/search 1.png" alt="Search" class="w-5 h-5 mt-5 cursor-pointer">
+                <img src="images/person 1.png" alt="Person" class="w-5 h-5 mt-5 cursor-pointer">
+                <img src="images/cart 2.png" alt="Cart" class="w-6 h-5 mt-5 cursor-pointer">
             </article>
         </section>
 
@@ -44,7 +43,7 @@
                 </div>
             </article>
             <!-- Pattern -->
-            <img src="images/pattern.png" alt="Pattern" class="absolute mt-130 ml-45">
+            <img src="images/pattern.png" alt="Pattern" class="absolute mt-130 ml-15">
             <article class="flex gap-2">
                 <div>
                     <div>
@@ -52,11 +51,7 @@
                         <img src="images/image 3.png" alt="Image 1" class="w-3xs h-3xs hidden md:block">
                     </div>
                     <div>
-                        <button class="bg-[#004F44] text-white rounded-sm absolute mt-3 ml-3 px-3 py-1 hover:bg-green-800 cursor-pointer">New</button>
-
-                        <img src="images/image 2.png" alt="Image 2" class="w-3xs h-3xs hidden md:block">
-
-
+                        <img src="images/image 2.png" alt="Image 2" class="w-3xs h-3xs hidden md:block relative">
                     </div>
                 </div>
                 <div>
@@ -73,7 +68,7 @@
     <!-- RIGHT AND LEFT IMAGES -->
     <div class="flex justify-between">
         <img src="images/left.png" alt="" class="absolute">
-        <img src="images/right.png" alt="" class="absolute ml-414">
+        <img src="images/right.png" alt="" class="absolute ml-[850px] sm:ml-[950px] md:ml-[1050px] lg:ml-[1150px] xl:ml-[1270px]">
     </div>
 
     <!-- FEATURED ITEMS -->
@@ -244,9 +239,9 @@
         </article>
     </section>
 
-    <!-- Right Hanger -->
+    <!-- Right/Left Hanger -->
     <article class="flex justify-between">
-        <img src="images/right.png" alt="Right Hanger" class="absolute ml-414">
+        <img src="images/right.png" alt="Right Hanger" class="absolute ml-[850px] sm:ml-[950px] md:ml-[1050px] lg:ml-[1150px] xl:ml-[1270px]">
         <img src="images/leaf.png" alt="Left Hanger" class="absolute ml-0 mt-40">
     </article>
 
@@ -256,10 +251,10 @@
         <p class="text-[#9EA9A7] text-center">Want to take of your flowers, but don't know how?<Br> You have came in the right website.<br>We have Flora AI that will help you to take care of them, in just a minute of explaining</p>
         
         <!-- INPUT FOR RESEARCH  -->
-        <button class="absolute bg-gray-300 ml-240 mt-15 py-1 px-2 rounded-lg cursor-pointer">Search</button>
-        <button class="absolute bg-gray-300 ml-258 mt-15 py-1 px-2 rounded-lg cursor-pointer">Research</button>
+        <button class="absolute ml-[850px] sm:ml-[950px] md:ml-[1050px] lg:ml-[1150px] xl:ml-[770px] bg-gray-300 mt-15 py-1 px-2 rounded-lg cursor-pointer">Search</button>
+        <button class="absolute ml-[850px] sm:ml-[950px] md:ml-[1050px] lg:ml-[1150px] xl:ml-[840px] bg-gray-300 mt-15 py-1 px-2 rounded-lg cursor-pointer">Research</button>
 
-        <input type="text" placeholder="Ask Anything About Flowers" class="w-1/2 h-15 mt-10 ml-90 p-2 border border-gray-300 rounded-md relative">
+        <input type="text" placeholder="Ask Anything About Flowers" class="w-1/2 xl:w-[690px] h-15 mt-10 lg:ml-90 xl:ml-[248px] p-2 border border-gray-300 rounded-md relative">
         <div class="flex justify-center mt-10">
             <button class="bg-[#004F44] text-white p-2 px-5 rounded-sm hover:bg-green-800 cursor-pointer"><a href="#">Try Flora AI</a></button>
         </div>
@@ -275,151 +270,85 @@
 
         <article class="flex mt-10 justify-around">
             <div>
-                <img src="images/person(1).jpg" alt="Kai Trump" class="w-3xs h-80 rounded">
-                <div class="flex justify-between">
-                    <h1 class="text-xl mt-2">Kai Trump</h1>
-                    <div class="flex gap-2 mt-3">
-                        <img src="images/star.png" alt="Star" class="w-5 h-5">
-                        <span>4.8</span>
+                <img src="images/person(1).jpg" alt="Kai Trump" class="w-65 h-80 rounded">
+                <div class="flex justify-between mt-3">
+                    <h1 class="text-2xl mt-2.5">Kai Trump</h1>
+                    <div class="flex gap-2 mt-4">
+                        <img src="images/star.png" alt="Star" class="w-4 h-4 mt-1">
+                        <span class="mt-0.8">4.8</span>
                     </div>
                 </div>
-                <div class="flex justify-between">
-                    <button class="px-5 bg-[#004F44] hover:bg-green-800 text-white cursor-pointer rounded-xl mt-2">Hire</button>
-                    <h1 class="mt-2 font-bold text-green-500">14$/hour</h1>
+                <div class="flex justify-between mt-1">
+                    <button class="px-5 py-1 bg-[#004F44] hover:bg-green-800 text-white cursor-pointer mt-2">Hire</button>
+                    <h1 class="mt-3 font-bold text-green-500">14$/hour</h1>
                 </div>
             </div>
 
             <div>
-                <img src="images/person(2).jpg" alt="Maria Mari" class="w-3xs h-80 rounded">
-                <div class="flex justify-between">
-                    <h1 class="text-xl mt-2">Maria Mari</h1>
-                    <div class="flex gap-2 mt-3">
-                        <img src="images/star.png" alt="Star" class="w-5 h-5">
-                        <span>4.5</span>
+                <img src="images/person(2).jpg" alt="Maria Mari" class="w-65 h-80 rounded">
+                <div class="flex justify-between mt-3">
+                    <h1 class="text-2xl mt-2.5">Maria Mari</h1>
+                    <div class="flex gap-2 mt-4">
+                        <img src="images/star.png" alt="Star" class="w-4 h-4 mt-1">
+                        <span class="mt-0.8">4.5</span>
                     </div>
                 </div>
-                <div class="flex justify-between">
-                    <button class="px-5 bg-[#004F44] hover:bg-green-800 text-white cursor-pointer rounded-xl mt-2">Hire</button>
-                    <h1 class="mt-2 font-bold text-green-500">12$/hour</h1>
+                <div class="flex justify-between mt-1">
+                    <button class="px-5 py-1 bg-[#004F44] hover:bg-green-800 text-white cursor-pointer mt-2">Hire</button>
+                    <h1 class="mt-3 font-bold text-green-500">12$/hour</h1>
                 </div>
             </div>
 
             <div>
-                <img src="images/person(3).jpg" alt="Joe Kai" class="w-3xs h-80">
-                <div class="flex justify-between">
-                    <h1 class="text-xl mt-2">Joe Kai</h1>
-                    <div class="flex gap-2 mt-3">
+                <img src="images/person(3).jpg" alt="Joe Kai" class="w-65 h-80 rounded">
+                <div class="flex justify-between mt-3">
+                    <h1 class="text-2xl mt-2.5">Joe Kai</h1>
+                    <div class="flex gap-2 mt-4">
                         <img src="images/star.png" alt="Star" class="w-5 h-5">
-                        <span>5.0</span>
+                        <span class="mt-0.8">5.0</span>
                     </div>
                 </div>
-                <div class="flex justify-between">
-                    <button class="px-5 bg-[#004F44] hover:bg-green-800 text-white cursor-pointer rounded-xl mt-2">Hire</button>
-                    <h1 class="mt-2 font-bold text-orange-500">20$/hour</h1>
+                <div class="flex justify-between mt-1">
+                    <button class="px-5 py-1 bg-[#004F44] hover:bg-green-800 text-white cursor-pointer mt-2">Hire</button>
+                    <h1 class="font-bold text-red-500 mt-3">20$/hour</h1>
                 </div>
             </div>
 
             <div>
-                <img src="images/person(4).jpg" alt="John Johny" class="w-3xs h-80">
-                <div class="flex justify-between">
-                    <h1 class="text-xl mt-2">John Johny</h1>
-                    <div class="flex gap-2 mt-3">
+                <img src="images/person(4).jpg" alt="John Johny" class="w-65 h-80 rounded">
+                <div class="flex justify-between mt-3">
+                    <h1 class="text-2xl mt-2.5">John Johny</h1>
+                    <div class="flex gap-2 mt-4">
                         <img src="images/star.png" alt="Star" class="w-5 h-5">
-                        <span>4.7</span>
+                        <span class="mt-0.8">4.7</span>
                     </div>
                 </div>
-                <div class="flex justify-between">
-                    <button class="px-5 bg-[#004F44] hover:bg-green-800 text-white cursor-pointer rounded-xl mt-2">Hire</button>
-                    <h1 class="mt-2 font-bold text-green-500">8$/hour</h1>
-                </div>
-            </div>
-
-            <div>
-                <img src="images/person(5).jpg" alt="Mia Chana" class="w-3xs h-80">
-                <div class="flex justify-between">
-                    <h1 class="text-xl mt-2">Mia Chana</h1>
-                    <div class="flex gap-2 mt-3">
-                        <img src="images/star.png" alt="Star" class="w-5 h-5">
-                        <span>4.3</span>
-                    </div>
-                </div>
-                <div class="flex justify-between">
-                    <button class="px-5 bg-[#004F44] hover:bg-green-800 text-white cursor-pointer rounded-xl mt-2">Hire</button>
-                    <h1 class="mt-2 font-bold text-green-500">11$/hour</h1>
+                <div class="flex justify-between mt-1">
+                    <button class="px-5 py-1 bg-[#004F44] hover:bg-green-800 text-white cursor-pointer mt-2">Hire</button>
+                    <h1 class="mt-3 font-bold text-green-500">8$/hour</h1>
                 </div>
             </div>
         </article>
     </section>
 
 
-    <section class="mt-30 ml-50 mr-50">
-        <h1 class="text-4xl text-[#004F44] text-center">Nearest Flower Gardens?</h1>
-        <p class="text-[#004F44] text-center mb-4">We got you</p>
-
-        <img src="images/map.png" alt="Map" class="w-400">
-    </section>
-
-    <img src="images/tree.png" alt="Tree" class="absolute ml-390">
-
+    <!-- Contact Us -->
+    <!-- Left Hanger -->
+    <img src="images/left(1).png" alt="Left Hanger" class="absolute ml-0">
     <section class="mt-40 ml-50 mr-50">
-        <h1 class="text-6xl font-bold text-black">what<br>People <span class="text-[#004F44]">Say</span></h1>
+        <h1 class="text-[#000000] text-center text-5xl">Contact Us</h1>
+        <p class="text-[#818181] text-center text-lg">Get attachment with us</p>
 
-        <article class="flex mt-10 gap-50">
-            <article class="bg-[#F2F8EC] rounded-xl flex gap-5 p-12">
-                <img src="images/rectangle.png" alt="Rectangle" class="absolute mt-60 ml-25">
-                <img src="images/feedback.png" alt="Feedback" class="relative">
-                <div>
-                    <h1 class="text-3xl font-bold">Dhar chana</h1>
-                    <p class="mt-6">Lorem ipsum dolor sit amet consectetur.<br>Lorem ipsum dolor sit amet consectetur.<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br>Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur.<br>Lorem ipsum dolor sit amet consectetur.<br>Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet consectetur.<br>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-                    <img src="images/stars.png" alt="Stars" class="mt-4">
-                </div>
-            </article>
-
-            <article class="bg-[#F2F8EC] rounded-xl flex gap-5 p-12">
-                <img src="images/rectangle.png" alt="Rectangle" class="absolute mt-60 ml-25">
-                <img src="images/feedback(1).png" alt="Feedback" class="relative">
-                <div>
-                    <h1 class="text-3xl font-bold">Dhar chana</h1>
-                    <p class="mt-6">Lorem ipsum dolor sit amet consectetur.<br>Lorem ipsum dolor sit amet consectetur.<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br>Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur.<br>Lorem ipsum dolor sit amet consectetur.<br>Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet consectetur.<br>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-                    <img src="images/stars.png" alt="Stars" class="mt-4">
-                </div>
-            </article>
+        <article class="bg-[#F2F8EC] rounded-xl ml-30 mr-30">
+            <div class="flex justify-around mt-10 p-5">
+                <input type="text" placeholder="Name" class="border border-[#BBB5B5] rounded-xl bg-[#FFFFFF] px-2 py-1 text-[#847C7C]">
+                <input type="email" placeholder="E-Mail" class="border border-[#BBB5B5] rounded-xl bg-[#FFFFFF] px-2 py-1 text-[#847C7C]">
+            </div>
+            <div class="mt-10 p-4 ml-30 mr-30">
+                <input type="text" placeholder="Message" class="border w-155 h-50 border-[#BBB5B5] rounded-xl bg-[#FFFFFF] px-2 py-1 text-[#847C7C]">
+            </div>
         </article>
     </section>
-
-
-    <!-- <footer class="bg-[#1A3306] rounded-2xl mt-10 py-10 flex justify-around text-white">
-        <img src="images/leaf(2).png" alt="Leaf" class="absolute ml-400">
-        <article>
-            <h1 class="text-3xl">FLORA AI</h1>
-            <p class="text-[#ABABAB]">Lorem ipsum dolor sit amet consectetur.<Br>Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet consectetur.<br>Lorem</p>
-        </article>
-
-        <article class="grid">
-            <h1 class="text-white text-lg mb-5">Useful Links</h1>
-            <a href="#" class="text-[#ABABAB]">Home</a>
-            <a href="#" class="text-[#ABABAB]">About</a>
-            <a href="#" class="text-[#ABABAB]">Product</a>
-            <a href="#" class="text-[#ABABAB]">Contact</a>
-        </article>
-
-        <article class="grid">
-            <h1 class="text-white text-lg mb-5">Community</h1>
-            <a href="#" class="text-[#ABABAB]">Go Premium</a>
-            <a href="#" class="text-[#ABABAB]">Team Plans</a>
-            <a href="#" class="text-[#ABABAB]">Refer a Friend</a>
-            <a href="#" class="text-[#ABABAB]">Gift Cards</a>
-        </article>
-
-        <article class="grid">
-            <h1 class="text-white text-lg mb-5">Resources</h1>
-            <a href="#" class="text-[#ABABAB]">Support</a>
-            <a href="#" class="text-[#ABABAB]">Latest updates</a>
-            <a href="#" class="text-[#ABABAB]">Update</a>
-            <a href="#" class="text-[#ABABAB]">Flow Management</a>
-        </article>
-    </footer> -->
-
     <script src="main.js"></script>
 </body>
 </html>
